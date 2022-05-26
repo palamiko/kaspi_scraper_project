@@ -1,0 +1,123 @@
+1651817044836	geckodriver	INFO	Listening on 127.0.0.1:55994
+1651817047908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofile1eKsSf"
+1651817048679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofile1eKsSf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55995/devtools/browser/df8c0c75-8e8b-4baa-9ff5-84d4cc395750
+1651817052813	Marionette	INFO	Listening on port 56024
+Read port: 56024
+1651817052872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1651817065589	Marionette	INFO	Stopped listening on port 56024
+1652244365383	geckodriver	INFO	Listening on 127.0.0.1:65332
+1652244368836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65333" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileus7Czs"
+1652244369606	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileus7Czs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65333/devtools/browser/764f7a63-165a-48ac-99b5-591a34616af3
+1652244373971	Marionette	INFO	Listening on port 65360
+Read port: 65360
+1652244374102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1652244385615	Marionette	INFO	Stopped listening on port 65360
+1652245050610	geckodriver	INFO	Listening on 127.0.0.1:49396
+1652245054093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileDuEpWW"
+1652245054864	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileDuEpWW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49397/devtools/browser/180f95ba-b357-4454-b8fb-c44d4bd269eb
+1652245058986	Marionette	INFO	Listening on port 49425
+Read port: 49425
+1652245059040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1652245071786	Marionette	INFO	Stopped listening on port 49425
+1652246022258	geckodriver	INFO	Listening on 127.0.0.1:51321
+1652246025824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51322" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileFJIyuB"
+1652246026590	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileFJIyuB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51322/devtools/browser/8c3ddaa6-8d99-4383-b000-59ff16f20f8d
+1652246030702	Marionette	INFO	Listening on port 51351
+Read port: 51351
+1652246030766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1652246044853	Marionette	INFO	Stopped listening on port 51351
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 29296, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652414791849	geckodriver	INFO	Listening on 127.0.0.1:53975
+1652414794916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofilejfKSSh"
+1652414795489	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofilejfKSSh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53976/devtools/browser/76fdcd6b-8876-4eaa-8f00-cf13176fac94
+1652414798141	Marionette	INFO	Listening on port 54001
+Read port: 54001
+1652414798233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1652414805846	Marionette	INFO	Stopped listening on port 54001
+1652434525711	geckodriver	INFO	Listening on 127.0.0.1:65061
+1652434529666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65062" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofiletfo7S4"
+1652434530155	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofiletfo7S4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65062/devtools/browser/97e87418-80a5-4d69-827d-717f6cea0a5f
+1652434532618	Marionette	INFO	Listening on port 65105
+Read port: 65105
+1652434532743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1652434545220	Marionette	INFO	Stopped listening on port 65105
+!!! error running onStopped callback: TypeError: callback is not a function
+1652435062521	geckodriver	INFO	Listening on 127.0.0.1:61811
+1652435065608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61812" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileIw2Ev1"
+1652435066127	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileIw2Ev1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61812/devtools/browser/e44c50f3-85c6-4361-b108-acb2da0a8c33
+1652435068624	Marionette	INFO	Listening on port 61838
+Read port: 61838
+1652435068710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1652435078354	Marionette	INFO	Stopped listening on port 61838
+1653489503046	geckodriver	INFO	Listening on 127.0.0.1:52931
+1653489506147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52932" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileH6Utl4"
+1653489506677	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofileH6Utl4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52932/devtools/browser/061f01ee-d02b-4e22-a67e-9493769175ab
+1653489509284	Marionette	INFO	Listening on port 52965
+Read port: 52965
+1653489509356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1653489518236	Marionette	INFO	Stopped listening on port 52965
+1653544846168	geckodriver	INFO	Listening on 127.0.0.1:52348
+1653544849475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52349" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofilemMMzJS"
+1653544850246	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\75BD~1\\AppData\\Local\\Temp\\rust_mozprofilemMMzJS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52349/devtools/browser/e7153383-2117-4cd6-aa3c-05cf9c670a53
+1653544854331	Marionette	INFO	Listening on port 52381
+Read port: 52381
+1653544854441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: Property 'handleEvent' is not callable.
+1653544866102	Marionette	INFO	Stopped listening on port 52381
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

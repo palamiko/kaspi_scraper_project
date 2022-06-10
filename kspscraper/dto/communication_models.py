@@ -1,13 +1,13 @@
-from dataclasses import dataclass
 import uuid
+from uuid import UUID
+
+from pydantic import BaseModel, HttpUrl
 
 
-@dataclass
-class BaseCommunionClass(object):
-    uuid = uuid.uuid4
+class BaseCommunionClass(BaseModel):
+    uuid: UUID = uuid.uuid4()
 
 
-@dataclass
 class ItemCard(BaseCommunionClass):
     """ Определяет карточку товара.
 
@@ -19,7 +19,8 @@ class ItemCard(BaseCommunionClass):
     """
 
     title: str
-    link: str
+    link: HttpUrl
     discon: list[str]
     price: str
+
 

@@ -1,11 +1,8 @@
 from peewee import *
 from playhouse.postgres_ext import PostgresqlExtDatabase
 
+
 database = PostgresqlExtDatabase('scraper_db', **{'host': 'localhost', 'user': 'postgres', 'password': 'postgres'})
-
-
-class UnknownField(object):
-    def __init__(self, *_, **__): pass
 
 
 class BaseModel(Model):
@@ -13,7 +10,7 @@ class BaseModel(Model):
         database = database
 
 
-class TrackingRequest(BaseModel):
+class TableTrackingRequest(BaseModel):
     id = AutoField()
     date_create = DateTimeField()
     date_end = DateTimeField(null=True)
@@ -27,10 +24,10 @@ class TrackingRequest(BaseModel):
         schema = 'public'
 
 
-class TrackedItems(BaseModel):
+class TableTrackedItems(BaseModel):
     date_create = DateTimeField()
     id = BigAutoField()
-    id_request = ForeignKeyField(column_name='id_request', field='id', model=TrackingRequest)
+    id_request = ForeignKeyField(column_name='id_request', field='id', model=TableTrackingRequest)
     title = CharField()
     url = CharField()
     uuid = UUIDField(unique=True)
@@ -40,15 +37,12 @@ class TrackedItems(BaseModel):
         schema = 'public'
 
 
-class PriceHistory(BaseModel):
+class TablePriceHistory(BaseModel):
     date_create = DateTimeField()
     id = BigAutoField()
-    id_item = ForeignKeyField(column_name='id_item', field='id', model=TrackedItems)
+    id_item = ForeignKeyField(column_name='id_item', field='id', model=TableTrackedItems)
     price = IntegerField(null=True)
 
     class Meta:
         table_name = 'price_history'
         schema = 'public'
-
-
-

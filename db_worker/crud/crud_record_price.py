@@ -59,5 +59,3 @@ class CRUDRecordPrice:
             logging.exception(f"Exception in fun: {cls.get_history_price_item.__qualname__}. Arg:id_item={id_item}")
             return MessageError(exception=repr(ex), exception_type='DataBaseException')
 
-
-# record_price = CRUDRecordPrice()

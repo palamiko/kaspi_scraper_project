@@ -9,8 +9,9 @@ class MessageError(BaseModel):
 
 
 class Response(BaseModel):
-    body: Union[Any, None]
+    response_body: Union[Any, None]
     request_body: Union[Any, None]
+    request_args: Union[Any, None]
     exception: Union[MessageError, None]
     fail: bool = False
     code: Union[int, None]

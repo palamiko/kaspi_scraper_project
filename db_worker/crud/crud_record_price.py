@@ -1,7 +1,7 @@
 import logging
 from typing import Union
 
-from peewee import DatabaseError
+from peewee import DatabaseError, ModelSelect
 
 from db_worker.dto.communication_models import PriceHistory
 from db_worker.dto.db_models import TablePriceHistory, database
@@ -50,12 +50,19 @@ class CRUDRecordPrice:
         query = TablePriceHistory.select().where(TablePriceHistory.id_item == id_item)
         try:
             for i in query:
-                i: TablePriceHistory
-                print(i.__dict__)
-                data.append(PriceHistory.from_orm(i))
-            print(tuple(data))
+                # data.append(PriceHistory.from_orm(i))
+                data.append(PriceHistory(**i.__data__))
             return tuple(data)
         except DatabaseError as ex:
             logging.exception(f"Exception in fun: {cls.get_history_price_item.__qualname__}. Arg:id_item={id_item}")
             return MessageError(exception=repr(ex), exception_type='DataBaseException')
+
+    @classmethod
+    def my_test(cls):
+        query = TablePriceHistory.select().execute()
+        print(type(query))
+        print(query.__dict__)
+        for i in query:
+            print(type(i))
+        a = PriceHistory.construct()
 
